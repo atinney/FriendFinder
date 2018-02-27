@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fishin' Friend Finder</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Moment.js -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.16.0/moment.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+
+        <h1>Survey Questions</h1>
+        <hr>
+        <h3>About You</h3>
+        <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required>
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" id="photo" class="form-control" required>
+        <hr>
+
+        <form>
+          <div class="form-group">
+          <h3>Question 1</h3>
+          <label id="q1">What kind of fly fishing do you prefer?</label>
+            <select class="form-control" id="q1">
+              <option value></option>
+              <option value="1">Dry fly snob</option>
+              <option value="2">Nymphing is my jam</option>
+              <option value="3">Poppers all day</option>
+              <option value="4">Streamers for the win</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+          <h3>Question 2</h3>
+          <label id="q2">What's your preferred gear brand?</label>
+            <select class="form-control" id="q2">
+              <option value></option>
+              <option value="1">Simms</option>
+              <option value="2">Redington</option>
+              <option value="3">Patagonia</option>
+              <option value="4">TFO</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+          <h3>Question 3</h3>
+          <label id="q3">Which fish is at the top of your bucket list?</label>
+            <select class="form-control" id="q3">
+              <option value></option>
+              <option value="1">Roosterfish</option>
+              <option value="2">GT</option>
+              <option value="3">Permit</option>
+              <option value="4">Tarpon</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+          <h3>Question 4</h3>
+          <label id="q4">Are you a fan of fresh or saltwater fisheries?</label>
+            <select class="form-control" id="q4">
+              <option value></option>
+              <option value="1">Fresh</option>
+              <option value="2">Salt</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+          <h3>Question 5</h3>
+          <label id="q5">What's your preferred method of access?</label>
+            <select class="form-control" id="q5">
+              <option value></option>
+              <option value="1">Wading</option>
+              <option value="2">Wet wading</option>
+              <option value="3">Raft</option>
+              <option value="4">Flats boat</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+          <h3>Question 5</h3>
+          <label id="q6">Do you frequent your home waters or prefer to explore?</label>
+            <select class="form-control" id="q6">
+              <option value></option>
+              <option value="1">Home waters baby</option>
+              <option value="2">Let's explore!</option>
+            </select>
+          </div>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button>
+
+<!--           <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Submit</button>
+ -->        </form>
+
+
+
+
+    </div>
+
+                <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+        </div>
+        </div>
+
+  </body>
+</html>
